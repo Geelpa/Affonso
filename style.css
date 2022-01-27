@@ -1,0 +1,30 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.st-fade {
+  animation: st-fade 5s;
+}
+
+@keyframes st-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.sec-fade {
+  animation: sec-fade 18s;
+}
+
+@keyframes sec-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
